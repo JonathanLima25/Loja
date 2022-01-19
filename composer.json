@@ -1,0 +1,10 @@
+{
+    "require": {
+        "smarty/smarty": "^4.0",
+        "phpmailer/phpmailer": "~5.2"
+        },
+    "autoload": {
+        "classmap": ["model/"]
+    }
+    
+}
