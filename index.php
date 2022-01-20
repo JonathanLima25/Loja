@@ -9,7 +9,10 @@ Rotas::get_pagina();
 
 //Valores para template
 $smarty->assign('NOME', 'JONATHAN DE LIMA FERREIRA');
-echo Rotas::get_SiteTEMA();
+$smarty->assign('GET_TEMA', Rotas::get_SiteTEMA());
+
+
+//echo Rotas::get_SiteTEMA();
 
 $smarty->display('index.tpl');
 
