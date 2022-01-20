@@ -1,1 +1,1 @@
-<h2>Está é a página do carrinho</h2>
+<h2>Está é a página do <strong>Carrinho</strong></h2>
