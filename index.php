@@ -17,8 +17,6 @@ $smarty->assign('TITULO_SITE', Config::SITE_NOME);
 
 
 
-//echo Rotas::get_SiteTEMA();
-
 $smarty->display('index.tpl');
 
 ?>
