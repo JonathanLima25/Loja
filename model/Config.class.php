@@ -12,7 +12,8 @@ class Config{
     const BD_HOST = "localhost",
         BD_USER = "root",
         BD_SENHA = "",
-        BD_BANCO = "lojajonathan";
+        BD_BANCO = "lojajonathan",
+        BD_PREFIX = "";
         
     //Informações para o PHP mailler
     const EMAIL_HOST = "smtp.gmail.com";
