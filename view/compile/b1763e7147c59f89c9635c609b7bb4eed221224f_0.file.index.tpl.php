@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.44, created on 2022-01-20 23:22:30
+/* Smarty version 3.1.44, created on 2022-01-21 00:57:04
   from '/opt/lampp/htdocs/loja/view/index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.44',
-  'unifunc' => 'content_61e9e0a66e4be3_88527493',
+  'unifunc' => 'content_61e9f6d017e8d8_62350004',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b1763e7147c59f89c9635c609b7bb4eed221224f' => 
     array (
       0 => '/opt/lampp/htdocs/loja/view/index.tpl',
-      1 => 1642715626,
+      1 => 1642723009,
       2 => 'file',
     ),
   ),
@@ -20,17 +20,20 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61e9e0a66e4be3_88527493 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61e9f6d017e8d8_62350004 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title><?php echo $_smarty_tpl->tpl_vars['TITULO_SITE']->value;?>
+</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
 /tema/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+/tema/contatos/contatos.css" rel="stylesheet" type="text/css"/>
         <?php echo '<script'; ?>
  src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
 /tema/js/jquery-2.2.1.min.js" type="text/javascript"><?php echo '</script'; ?>
@@ -38,6 +41,10 @@ function content_61e9e0a66e4be3_88527493 (Smarty_Internal_Template $_smarty_tpl)
         <?php echo '<script'; ?>
  src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
 /tema/js/bootstrap.min.js" type="text/javascript"><?php echo '</script'; ?>
+>
+        <?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+/tema/contatos/contatos.js" type="text/javascript"><?php echo '</script'; ?>
 >
         <!-- meu aquivo pessoal de CSS-->
         <link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
@@ -93,27 +100,17 @@ function content_61e9e0a66e4be3_88527493 (Smarty_Internal_Template $_smarty_tpl)
                         
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="nav navbar-nav">
-                                <li><a href="#"><i class="glyphicon glyphicon-home"></i> Home </a> </li>
+                                <li><a href="<?php echo $_smarty_tpl->tpl_vars['GET_HOME']->value;?>
+"><i class="glyphicon glyphicon-home"></i> Home </a> </li>
                                
-                                <li><a href="#"><i class="glyphicon glyphicon-user"></i> Minha Conta </a> </li>
-                                <li><a href="#"><i class="glyphicon glyphicon-shopping-cart"></i> Carrinho </a> </li>
-                                <li><a href="#" ><i class="glyphicon glyphicon-envelope"></i> Contato </a> </li>
+                                <li><a href="<?php echo $_smarty_tpl->tpl_vars['PAG_MINHA_CONTA']->value;?>
+"><i class="glyphicon glyphicon-user"></i> Minha Conta </a> </li>
+                                <li><a href="<?php echo $_smarty_tpl->tpl_vars['PAG_CARRINHO']->value;?>
+"><i class="glyphicon glyphicon-shopping-cart"></i> Carrinho </a> </li>
+                                <li><a href="<?php echo $_smarty_tpl->tpl_vars['PAG_CONTATO']->value;?>
+" ><i class="glyphicon glyphicon-envelope"></i> Contato </a> </li>
                                 
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Categorias <i class="glyphicon glyphicon-menu-down"></i></a> 
                                 
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#"><span class="glyphicon glyphicon-chevron-right"></span> categoria 1 </a> </li>
-                                     <li class="divider"></li>
-                                     <li><a href="#"><span class="glyphicon glyphicon-briefcase"></span> categoria 2 </a> </li>
-                                      <li class="divider"></li>
-                                      <li><a href="#"><i class="glyphicon glyphicon-bookmark"></i> categoria 3 </a> </li>
-                                      <li class="divider"></li>
-                                     <li><a href="#"> categoria 4 </a> </li>
-                                    
-                                    </ul>
-                                
-                                </li>
                                
                                 
                             </ul>
@@ -193,7 +190,8 @@ function content_61e9e0a66e4be3_88527493 (Smarty_Internal_Template $_smarty_tpl)
             
             <!-- começa div rodape -->
             <div class="row" id="rodape">
-            
+                <center><h4><?php echo $_smarty_tpl->tpl_vars['TITULO_SITE']->value;?>
+</h4></center>
             
             </div><!-- fim div rodape-->
             
