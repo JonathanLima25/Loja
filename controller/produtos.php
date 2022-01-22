@@ -1,1 +1,0 @@
-<h2>Está é a página do <strong>Produtos</strong></h2>
