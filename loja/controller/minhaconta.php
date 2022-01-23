@@ -1,2 +1,7 @@
-<h2>Está é a página do <strong>Minha Conta</strong></h2>
+<?php
 
+$smarty = new Template();
+$smarty->assign('CADASTRO', 'Página de Login');
+
+$smarty->display('minha_conta.tpl');
+?>

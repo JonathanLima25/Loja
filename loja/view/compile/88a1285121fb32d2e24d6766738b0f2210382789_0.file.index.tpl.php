@@ -1,23 +1,63 @@
-<!DOCTYPE html>
+<?php
+/* Smarty version 3.1.44, created on 2022-01-23 03:49:07
+  from 'C:\xampp\htdocs\loja\view\index.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.44',
+  'unifunc' => 'content_61ecc2230155a3_79757581',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    '88a1285121fb32d2e24d6766738b0f2210382789' => 
+    array (
+      0 => 'C:\\xampp\\htdocs\\loja\\view\\index.tpl',
+      1 => 1642906142,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_61ecc2230155a3_79757581 (Smarty_Internal_Template $_smarty_tpl) {
+?><!DOCTYPE html>
 
 <html>
     <head>
-        <title>{$TITULO_SITE}</title>
+        <title><?php echo $_smarty_tpl->tpl_vars['TITULO_SITE']->value;?>
+</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-        <link href="{$GET_TEMA}/tema/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="{$GET_TEMA}/tema/contatos/contatos.css" rel="stylesheet" type="text/css"/>
-        <script src="{$GET_TEMA}/tema/js/jquery-2.2.1.min.js" type="text/javascript"></script>
-        <script src="{$GET_TEMA}/tema/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="{$GET_TEMA}/tema/contatos/contatos.js" type="text/javascript"></script>
+        <link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+/tema/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+/tema/contatos/contatos.css" rel="stylesheet" type="text/css"/>
+        <?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+/tema/js/jquery-2.2.1.min.js" type="text/javascript"><?php echo '</script'; ?>
+>
+        <?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+/tema/js/bootstrap.min.js" type="text/javascript"><?php echo '</script'; ?>
+>
+        <?php echo '<script'; ?>
+ src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+/tema/contatos/contatos.js" type="text/javascript"><?php echo '</script'; ?>
+>
         <!-- meu aquivo pessoal de CSS-->
-        <link href="{$GET_TEMA}/tema/css/tema.css" rel="stylesheet" type="text/css"/>
+        <link href="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+/tema/css/tema.css" rel="stylesheet" type="text/css"/>
      <!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
     <!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <?php echo '<script'; ?>
+ src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"><?php echo '</script'; ?>
+>
+      <?php echo '<script'; ?>
+ src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"><?php echo '</script'; ?>
+>
     <![endif]-->
     
     </head>
@@ -31,7 +71,8 @@
                  
                 
                 <div class="container">
-                <img src="{$GET_TEMA}/images/logo.png" alt=""> 
+                <img src="<?php echo $_smarty_tpl->tpl_vars['GET_TEMA']->value;?>
+/images/logo.png" alt=""> 
                        
                 </div>    
             
@@ -59,11 +100,15 @@
                         
                         <div class="collapse navbar-collapse" id="navbar">
                             <ul class="nav navbar-nav">
-                                <li><a href="{$GET_HOME}"><i class="glyphicon glyphicon-home"></i> Home </a> </li>
+                                <li><a href="<?php echo $_smarty_tpl->tpl_vars['GET_HOME']->value;?>
+"><i class="glyphicon glyphicon-home"></i> Home </a> </li>
                                
-                                <li><a href="{$PAG_MINHA_CONTA}"><i class="glyphicon glyphicon-user"></i> Minha Conta </a> </li>
-                                <li><a href="{$PAG_CADASTRO_PRODUTO}"><i class="glyphicon glyphicon-shopping-cart"></i> Cadastro de Produtos </a> </li>
-                                <li><a href="{$PAG_CADASTRO}" ><i class="glyphicon glyphicon-user"></i> Cadastro de Vendedor </a> </li>
+                                <li><a href="<?php echo $_smarty_tpl->tpl_vars['PAG_MINHA_CONTA']->value;?>
+"><i class="glyphicon glyphicon-user"></i> Minha Conta </a> </li>
+                                <li><a href="<?php echo $_smarty_tpl->tpl_vars['PAG_CADASTRO_PRODUTO']->value;?>
+"><i class="glyphicon glyphicon-shopping-cart"></i> Cadastro de Produtos </a> </li>
+                                <li><a href="<?php echo $_smarty_tpl->tpl_vars['PAG_CADASTRO']->value;?>
+" ><i class="glyphicon glyphicon-user"></i> Cadastro de Vendedor </a> </li>
                                 
                                 
                                
@@ -122,13 +167,14 @@
                     
                     <ul class="breadcrumb">
                         <li><a href="#"><i class="glyphicon glyphicon-home"></i> Home </a></li>
-                        <li><a href="{$PAG_PRODUTOS}" > Produtos </a></li>
+                        <li><a href="<?php echo $_smarty_tpl->tpl_vars['PAG_PRODUTOS']->value;?>
+" > Produtos </a></li>
                     </ul>   
                     <!-- fim do menu breadcrumb-->             
                     
-                {php}
+                <?php 
                 Rotas::get_Pagina();
-                {/php}
+                ?>
                   
                     
                 </div>  <!--fim coluna direita-->  
@@ -144,7 +190,8 @@
             
             <!-- começa div rodape -->
             <div class="row" id="rodape">
-                <center><h4>{$TITULO_SITE}</h4></center>
+                <center><h4><?php echo $_smarty_tpl->tpl_vars['TITULO_SITE']->value;?>
+</h4></center>
             
             </div><!-- fim div rodape-->
             
@@ -157,3 +204,5 @@
         
     </body>
 </html>
+<?php }
+}

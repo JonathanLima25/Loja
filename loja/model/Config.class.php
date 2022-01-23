@@ -25,11 +25,6 @@ class Config{
     const EMAIL_SMTPSECURE = "tls";
     const EMAIL_COPIA = "lojadojonathan399@gmail.com";
 
-
-
-
-
-
 }
 
 

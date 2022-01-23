@@ -18,8 +18,8 @@ class Rotas{
         return self::get_SiteHOME().'/'.self::$pasta_view;
     }
     
-    static function pag_Carrinho(){
-        return self::get_SiteHOME().'/carrinho';
+    static function pag_CadastroProduto(){
+        return self::get_SiteHOME().'/cadastro_produto';
     }
     
     static function pag_ProdutosInfo(){
@@ -30,8 +30,8 @@ class Rotas{
         return self::get_SiteHOME().'/produtos';
     }
     
-    static function pag_Contato(){
-        return self::get_SiteHOME().'/contato';
+    static function pag_Cadastro(){
+        return self::get_SiteHOME().'/cadastro';
     }
     
     static function pag_MinhaConta(){
